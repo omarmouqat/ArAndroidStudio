@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <ImageView
+        android:id="@+id/goldenvase"
+        android:layout_width="122dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vasebtn"
+        app:srcCompat="@drawable/um5" />
+
+    <ImageView
+        android:id="@+id/canonmodel"
+        android:layout_width="122dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toStartOf="@+id/goldenvase"
+        app:layout_constraintStart_toEndOf="@+id/woodchest"
+        app:layout_constraintTop_toBottomOf="@+id/horsebtn"
+        app:srcCompat="@drawable/canonmodel" />
+
+    <ImageView
+        android:id="@+id/woodchest"
+        android:layout_width="122dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/facebtn"
+        app:srcCompat="@drawable/wodenchestmodel" />
+
+    <Button
+        android:id="@+id/canonbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load"
+        app:layout_constraintEnd_toEndOf="@+id/canonmodel"
+        app:layout_constraintStart_toStartOf="@+id/canonmodel"
+        app:layout_constraintTop_toBottomOf="@+id/canonmodel" />
+
+    <Button
+        android:id="@+id/chestbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load"
+        app:layout_constraintEnd_toEndOf="@+id/woodchest"
+        app:layout_constraintStart_toStartOf="@+id/woodchest"
+        app:layout_constraintTop_toBottomOf="@+id/woodchest" />
+
+    <Button
+        android:id="@+id/facebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load"
+        app:layout_constraintEnd_toEndOf="@+id/facemodelimg"
+        app:layout_constraintStart_toStartOf="@+id/facemodelimg"
+        app:layout_constraintTop_toBottomOf="@+id/facemodelimg" />
+
+    <Button
+        android:id="@+id/vasebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load"
+        app:layout_constraintEnd_toEndOf="@+id/vasemodel"
+        app:layout_constraintStart_toStartOf="@+id/vasemodel"
+        app:layout_constraintTop_toBottomOf="@+id/vasemodel" />
+
+    <Button
+        android:id="@+id/goldenvasebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load"
+        app:layout_constraintEnd_toEndOf="@+id/goldenvase"
+        app:layout_constraintStart_toStartOf="@+id/goldenvase"
+        app:layout_constraintTop_toBottomOf="@+id/goldenvase" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Welcom to our Ar App"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Select an Object :"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/vasemodel"
+        android:layout_width="122dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/vasemodel" />
+
+    <ImageView
+        android:id="@+id/horsemodelimg"
+        android:layout_width="122dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toStartOf="@+id/vasemodel"
+        app:layout_constraintStart_toEndOf="@+id/facemodelimg"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/horsemodel" />
+
+    <ImageView
+        android:id="@+id/facemodelimg"
+        android:layout_width="122dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/facemodel" />
+
+    <Button
+        android:id="@+id/horsebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load"
+        app:layout_constraintEnd_toEndOf="@+id/horsemodelimg"
+        app:layout_constraintStart_toStartOf="@+id/horsemodelimg"
+        app:layout_constraintTop_toBottomOf="@+id/horsemodelimg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
