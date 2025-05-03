@@ -20,9 +20,21 @@ This project is an Android application that leverages Sceneform to enable the di
 - ARCore
 
 **Preview**
+
+
 - *Home Page*
+
+
 ![Home Page](images/homepage.jpg)
+
+
 - *Demo 1*
+
+
 ![Demo 1](images/demo1.jpg)
+
+
 - *Demo 2*
+
+
 ![Demo 2](images/demo2.jpg)
