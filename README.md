@@ -21,4 +21,4 @@ This project is an Android application that leverages Sceneform to enable the di
 
 **Preview**
 
-homepage
+![Home Page](images/homepage.jpg)
