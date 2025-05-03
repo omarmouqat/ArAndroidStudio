@@ -22,3 +22,4 @@ This project is an Android application that leverages Sceneform to enable the di
 **Preview**
 
 ![Home Page](images/homepage.jpg)
+![Home Page](images/demo.mp4)
